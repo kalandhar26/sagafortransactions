@@ -1,0 +1,13 @@
+# Axon Server Configuration
+axon:
+  axonserver:
+    servers: localhost:8124
+    name: user-service
+
+#configure specific port
+server:
+  port: 8086
+
+spring:
+  application:
+    name: user-service

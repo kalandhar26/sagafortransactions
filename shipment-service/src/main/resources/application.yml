@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  application:
+    name: shipment-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/saga
+    username: root
+    password: Mysql@2022
+
+# Axon Server Configuration
+axon:
+  axonserver:
+    servers: localhost:8124
+    name: shipment-service
+
+#configure specific port
+server:
+  port: 8084
+
+# database configuration
+
